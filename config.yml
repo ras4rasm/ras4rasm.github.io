@@ -1,0 +1,225 @@
+baseurl: "./"
+title: "RO-MAN 2025 Workshop: RAS4RASM"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "RO-MAN 2025 WS: RAS4RASM (Robots and Autonomous Systems for Refugees, Asylum Seekers, and Migrants)"
+  Title: "RAS4RASM"
+  Subtitle: "Robots and Autonomous Systems for Refugees, Asylum Seekers, and Migrants"
+  Description: ""
+  Date: "25 August 2025"
+  Venue: "Half-day workshop at RO-MAN 2025"
+  Address: "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN 2025)"
+  City:  "Eindhoven"
+  State: "The Netherlands"
+#  Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    #- location
+    #- frontiers
+    - cfp
+    #- speakers
+    #- papers
+    #- schedule
+    - organizers
+    #- sponsors
+    #- contact
+    #- resources
+    #- partners
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "Scope"
+    cfp: "Call For Papers"
+    frontiers: "Special Issue"
+    speakers: "Invited speakers"
+    papers: "Accepted papers"
+    location: "Location"
+    schedule: "Schedule"
+    organizers: "Organizers"
+    partners: "TC Support"
+    sponsors: "Project Support"
+    contact: "Contact"
+    resources: "Resources"
+
+#  # The Call To Action button at the header,
+#  # If you don't want this, just remove the callToAction property.
+#  CallToAction:
+#    text: "Register now!"
+#    link: "http://register.example.com"
+
+#  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+#  ForkButton:
+#    repository: "https://github.com/jweslley/hugo-conference/"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "AI-CARING"
+      logo: "/img/ai-caring-logo-300x154.png"
+      url: ""
+    - name: "RAEng UK IC Postdoctoral Research Fellowship: Plan and Goal Reasoning for Explainable Autonomous Robots"
+      logo: "/img/RExAR.png"
+      url: ""
+    - name: "COHERENT: COllaborative HiErarchical Robotic ExplaNaTions (CHIST-ERA)"
+      logo: "/img/COHERENT.png"
+      url: ""
+    - name: "aerostream: Strengthening Research and Innovation Excellence in Autonomous Aerial Systems"
+      logo: "/img/aerostream.jpg"
+      url: "https://aerostream.fer.hr/aerostream"
+    - name: "TrustAT - Trustworthy Ad Hoc Teamwork (reference FA9550-22-1-0475)"
+      logo: ""
+      url: ""
+    - name: "Artificial Intelligence Journal"
+      logo: "/img/ARTINT_Logo2_c_web_more.jpg"
+      url: "https://aij.ijcai.org/funding-opportunities-for-promoting-ai-research/"
+
+  # List of Partners
+  Partners:
+    - name: "IEEE Technical Committee on Cognitive Robotics"
+      url: "https://www.ieee-ras.org/cognitive-robotics"
+    - name: "IEEE Technical Committee on Robot Learning"
+      url: "https://www.ieee-ras.org/robot-learning"
+    - name: "IEEE Technical Committee for on Human-Robot, Interaction & Coordination"
+      url: "https://www.ieee-ras.org/human-robot-interaction-coordination"
+
+  # List of Organizers
+  Organizers:
+    - name: "Shaul Ashkenazi (Corresponding organizer)"
+      photo: "/img/shaul.png"
+      bio: "University of Glasgow, UK"
+      link:
+        href: "http://shaulashkenazi.com"
+        text: "www"
+    - name: "Martim Brandao"
+      photo: "/img/martim.jpeg"
+      bio: "King's College London, UK"
+      link:
+        href: "https://www.martimbrandao.com/"
+        text: "www"
+    - name: "Mary Ellen Foster"
+      photo: "/img/maryellen.jpg"
+      bio: "University of Glasgow, UK"
+      link:
+        href: "https://www.maryellenfoster.uk/"
+        text: "www"
+    - name: "Masoumeh Mansouri"
+      photo: "/img/iran.jpg"
+      bio: "University of Birmingham, UK"
+      link:
+        href: "https://iranmansoori.github.io/"
+        text: "www"
+    - name: "Jane Stuart-Smith"
+      photo: "/img/jane.png"
+      bio: "University of Glasgow, UK"
+      link:
+        href: "https://www.gla.ac.uk/schools/critical/staff/janestuart-smith/"
+        text: "www"
+    - name: "Tom Williams"
+      photo: "/img/tom.jpg"
+      bio: "Colorado School of Mines, US"
+      link:
+        href: "https://mirrorlab.mines.edu/"
+        text: "www"
+
+  # The entire schedule
+  Schedule:
+
+    - name: "Opening (organizers)"
+      time: "9:15 - 9:30"
+
+    - name: "Seongun Kim"
+      bio: "Korea Advanced Institute of Science and Technology, South Korea"
+      photo: "/img/seongunkim.jpg"
+      presentation:
+        title: "Explaining the Decisions of Deep Policy Networks for Robotic Manipulation and Robot Navigation"
+        time: "9:30 - 10:00"
+
+    - name: "Subramanian Ramamoorthy"
+      bio: "University of Edinburgh, UK"
+      photo: "/img/ram.jpg"
+      presentation:
+        title: "Why Explain, and Steps towards Design for Trustworthiness"
+        time: "10:00 - 10:30"
+
+    - name: "Poster session"
+      time: "10:30 - 11:00"
+
+    - name: "Coffee break"
+      time: "11:00 - 11:30"
+
+    - name: "Silvia Rossi"
+      bio: "Università degli Studi di Napoli Federico II, Italy"
+      photo: "/img/silvia-rossi.jpg"
+      presentation:
+        title: "Transparency in Human-Robot Interaction - Open Challenges in Modeling and Evaluation of the Robot's Behavior"
+        time: "11:30 - 12:00"
+
+    - name: "Lars Kunze"
+      bio: "University of Oxford, UK"
+      photo: "/img/lars.jpg"
+      presentation:
+        title: "Making Robots Explainable and Trustworthy"
+        time: "12:00 - 12:30"
+
+    - name: "Lunch"
+      time: "12:30 - 14:00"
+
+    - name: "Tathagata Chakraborti"
+      bio: "IBM Research AI, USA"
+      photo: "/img/tathagata.jpg"
+      presentation:
+        title: "Planning with Mental Models - Explanations versus Explainable Behavior"
+        time: "14:00 - 14:30"
+
+    - name: "Bradley Hayes"
+      bio: "University of Colorado, Boulder, USA"
+      photo: "/img/bradley.jpg"
+      presentation:
+        title: "How to Generate and Utilize Justifications to Make Robot Explanations Useful"
+        time: "14:30 - 15:00"
+
+    - name: "Karinne Ramirez Amaro"
+      bio: "Chalmers University of Technology, Sweden"
+      photo: "/img/karinne.jpg"
+      presentation:
+        title: "Explainable AI meets Robotics - Robots that Learn and Reason from Experiences"
+        time: "15:00 - 15:30"
+
+    - name: "Coffee break and poster session"
+      time: "15:30 - 16:00"
+
+    - name: "Short presentations (Accepted papers)"
+      time: "16:00 - 17:00"
+
+    - name: "Panel discussion"
+      time: "17:00 - 18:00"
+
+
+    #- name: "Session 1: Responsible robotics and societal impact"
+    #  separator: ""
+
+    #- name: "Opening (organizers)"
+    #  time: "10:15 - 10:30"
+
+    #- name: "Alan Winfield"
+    #  photo: "/img/alan.jpg"
+    #  bio: ""
+    #  company: "University of West of England"
+    #  link:
+    #    href: "http://alanwinfield.blogspot.com/"
+    #    text: "www"
+    #  presentation:
+    #    title: "Robot Accident Investigation: a case study in Responsible Robotics"
+    #    description: "Description"
+    #    time: "10:30 - 11:00"
+    #  video: "https://youtu.be/mjGW52_BvPc"
+
+

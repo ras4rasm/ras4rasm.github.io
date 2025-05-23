@@ -1,0 +1,22 @@
+<h2 class="section-title">{{ .titles.sponsors }}</h2>
+
+<p itemprop="description">This workshop is supported by:</p>
+
+<ul class="sponsors-list">
+{{ range $sponsor := .sponsors }}
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+{{ if .logo }}
+      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image" height="50px">
+      &nbsp;&nbsp;&nbsp;
+{{ end }}
+{{ if .url }}
+    <a href="{{ .url }}" itemprop="url" target="_blank">
+      {{ .name }}
+    </a>
+{{ else }}
+      {{ .name }}
+{{ end }}
+  </li>
+  <br>
+{{ end }}
+</ul>

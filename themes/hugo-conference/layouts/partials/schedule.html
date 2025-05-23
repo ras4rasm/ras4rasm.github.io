@@ -1,0 +1,43 @@
+<h2 class="section-title">{{ .titles.schedule }}</h2>
+
+<p></p>
+<div class="schedule-tbl">
+  <table>
+
+    <tbody>
+      {{ range $slot := .schedule }}
+        {{ if ne .presentation nil }}
+          <tr>
+            <td class="schedule-time">{{ .presentation.time }}</td>
+            <td class="schedule-slot">
+            {{ with .photo }}
+              <span class="speaker-photo">
+                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
+              </span>
+            {{ end }}
+
+              <b>{{ $slot.name }}</b>
+              <span class="speakers-company">{{ .company }}</span>
+            </td>
+            <td class="schedule-description">
+              <b>"{{ .presentation.title }}"</b>
+              {{ if ne .video nil }}<a href="{{ .video }}" target="_blank">(video)</a>{{ end }}
+            </td>
+          </tr>
+        {{ else if ne .separator nil }}
+          <tr class="schedule-other">
+            <td class="schedule-slot" colspan="3"><b>{{ .name }}</b></td>
+          </tr>
+        {{ else }}
+          <tr class="schedule-other">
+            <td class="schedule-time">{{ .time }}</td>
+            <td class="schedule-slot">{{ .name }}</td>
+            <td class="schedule-description">
+              {{ if ne .video nil }}<a href="{{ .video }}" target="_blank">(video)</a>{{ end }}
+            </td>
+          </tr>
+        {{ end }}
+      {{ end }}
+    </tbody>
+  </table>
+</div>

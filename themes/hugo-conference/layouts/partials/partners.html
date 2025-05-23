@@ -1,0 +1,10 @@
+<h2 class="section-title">{{ .titles.partners }}</h2>
+
+<p itemprop="description">This workshop is supported by:</p>
+
+{{ range $partner := .partners }}
+  <p itemprop="description">
+    <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+  </p>
+{{ end }}
+
