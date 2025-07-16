@@ -428,16 +428,14 @@ nav {
 .schedule-tbl td,
 .schedule-tbl th {
   position: relative;
-  padding: 20px 30px;
+  padding: 20px 15px;
   font-size: 1.4em;
   line-height: 1.4em;
   text-align: left;
-}
-.schedule-tbl th {
-  padding: 5px 30px;
   color: #2b2b2b;
-  font-size: 2em;
-  font-weight: bolder;
+  /*padding: 5px 10px;*/
+  /*font-size: 2em;*/
+  /*font-weight: bolder;*/
 }
 .schedule-tbl .speaker-photo {
   position: relative;
@@ -450,11 +448,11 @@ nav {
   text-align: center;
 }
 .schedule-slot {
-/*width: 250px;*/
+  width: 250px;
   font-size: 16px;
 }
 .schedule-time {
-  width: 100px;
+  width: 90px;
 }
 .speakers-company {
   display: block;

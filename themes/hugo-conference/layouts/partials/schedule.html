@@ -1,5 +1,7 @@
 <h2 class="section-title">{{ .titles.schedule }}</h2>
 
+<p style="color:#FF0000; font-size: 1.9em;">All times are in the Netherlands' timezone (CEST / UTC+2).</p>
+
 <p></p>
 <div class="schedule-tbl">
   <table>
@@ -20,7 +22,8 @@
               <span class="speakers-company">{{ .company }}</span>
             </td>
             <td class="schedule-description">
-              <b>"{{ .presentation.title }}"</b>
+              <b>"{{ .presentation.title }}"</b><br>
+              {{ .presentation.description }}
               {{ if ne .video nil }}<a href="{{ .video }}" target="_blank">(video)</a>{{ end }}
             </td>
           </tr>

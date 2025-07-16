@@ -1,7 +1,5 @@
 <h2 class="section-title">{{ .titles.speakers }}</h2>
 
-<p style="color:#FF0000; font-size: 1.9em;">All times are London (UK) time.</p>
-
 <ul class="speakers-list">
 {{ range $speaker := (where (where .schedule "presentation" "ne" nil) "skip" "ne" "yes") }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -19,7 +17,8 @@
       <span>{{ .presentation.title }}</span>
     </h3>
 -->
-    <h3 class="speakers-name">{{ .name }}
+    <h3 class="speakers-name"><b>{{ .name }}</b>
+      {{ .company }}
       {{ with .link }}
       <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
       {{ end }}

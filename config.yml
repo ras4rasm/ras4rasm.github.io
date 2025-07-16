@@ -26,9 +26,9 @@ params:
     #- location
     #- frontiers
     - cfp
-    #- speakers
+    - speakers
     #- papers
-    #- schedule
+    - schedule
     - organizers
     #- sponsors
     #- contact
@@ -132,76 +132,56 @@ params:
   # The entire schedule
   Schedule:
 
-    - name: "Opening (organizers)"
-      time: "9:15 - 9:30"
+    - name: "Overview of the field of RAS4RASM"
+      time: "9:00 - 9:30"
 
-    - name: "Seongun Kim"
-      bio: "Korea Advanced Institute of Science and Technology, South Korea"
-      photo: "/img/seongunkim.jpg"
+    - name: "Koen Leurs"
+      company: "Utrecht University, the Netherlands"
+      bio: "Koen Leurs is an associate professor in Gender, Media and Migration Studies at the Graduate Gender Program, Department of Media and Culture, Utrecht University, the Netherlands. His research interests are migration, borders, youth culture and digital technologies, co-creative methodologies and ethics. Currently, Leurs is part of the Management Committee of the Cost-Action DATA-MIG CA22135 - Data Matters: Sociotechnical Challenges of European Migration and Border Control. Recently, Leurs was the PI of the Team Science project Co-designing a fair digital asylum procedure, funded by the Digital Society (‘DiSa’) programme (a research programme by all fourteen Dutch research universities) and COMMIT/, a public-private ICT research community. He recently co-edited Doing Digital Migration Studies (Amsterdam University Press, 2024) and the Handbook of Media and Migration (Sage, 2020) and published the monograph Digital Migration (Sage, 2023)."
+      photo: "/img/koen.jpg"
+      link:
+        href: "https://www.uu.nl/staff/KHALeurs"
+        text: "www"
       presentation:
-        title: "Explaining the Decisions of Deep Policy Networks for Robotic Manipulation and Robot Navigation"
-        time: "9:30 - 10:00"
+        title: "Doing digital migration studies: pluralizing understandings"
+        time: "9:30 - 10:10"
+        description: "Digital migration studies refers to an emerging interdisciplinary research area concerned with the study of migration in relation to digital technologies and datafication. In contemporary discussions on migration, digital technology is often considered as a ‘smart’ disruptive tool used by governments to surveill and protect borders while monitoring the movement of people in more efficient ways. However, the story about is more complex. Contemporary migration increasingly reflects a digitally mediated state of migrant being and a digitized and datafied condition. Migration and technology can be said to co-shape one another: migration is a site of technological innovation, and migration is deeply digitally mediated. Koen Leurs, in his recent book Digital Migration (Sage, 2023), and open access volume Doing digital migration studies (co-edited with Sandra Ponzanesi, Amsterdam University Press, 2024) draws out the complex, multilayered relationship between migration and digital technologies. Using an inter-disciplinary approach and covering case studies from the Global North as well as the Global South, Koen Leurs seeks to draw out the contradictions, tensions and hopes that characterize digital migration dynamics. From the critical role that digital infrastructures play in migration management to migrants’ use of devices, platforms and networks to connect and thrive, from the power of digital representations of migrants (and how these can be contested), pre-digital histories to the emotional realities of transnational families, Leurs invites scholars to pluralize understandings of migration and mobility in our contemporary world. In this talk he will draw out digital migration by addressing ontological, epistemological, methodological and ethical dimensions."
 
-    - name: "Subramanian Ramamoorthy"
-      bio: "University of Edinburgh, UK"
-      photo: "/img/ram.jpg"
+    - name: "Dina Sabie"
+      company: "Humber College, Canada"
+      bio: "Dr. Dina Sabie is a Professor at Humber Polytechnic in Canada. Her research investigates how design, digital technologies, and co-creative practices can support the emotional well-being of migrants. She has worked closely with immigrants, refugees, and internally displaced persons (IDPs), with projects spanning multiple international sites, particularly in Canada and Iraq."
+      photo: "/img/dina2.jpg"
+      link:
+        href: "https://www.cs.toronto.edu/~dsabie/"
+        text: "www"
       presentation:
-        title: "Why Explain, and Steps towards Design for Trustworthiness"
-        time: "10:00 - 10:30"
+        title: "Beyond Access: Rethinking HCI for Migrants"
+        time: "10:10 - 10:25"
+        description: "Human-Computer Interaction (HCI) research has increasingly engaged with the technological experiences of refugees and immigrants. Yet, much of this work has traditionally focused on access and service delivery, often overlooking the broader social, emotional, and cultural dimensions of migration. This talk presents insights from research projects conducted in Canada and Iraq that examine how technology can support migrants’ cultural identity, emotional well-being, and social infrastructures. It also highlights critical ethical and political considerations for researchers working at the intersection of technology and [in]voluntary displacement."
 
-    - name: "Poster session"
-      time: "10:30 - 11:00"
+    - name: "Yue Hu"
+      company: "University of Waterloo, Canada"
+      bio: "Yue Hu is an Assistant Professor in Mechanical and Mechatronics Engineering at the University of Waterloo and director of the Active and Interactive Robotics Lab (AIRLab). She holds a PhD in Computer Science from Heidelberg University, with postdoctoral training at Heidelberg and the Italian Institute of Technology (IIT). Prior to joining Waterloo, she held academic and research positions in Japan, including as a JSPS fellow at AIST and Assistant Professor at Tokyo University of Agriculture and Technology. Her research bridges physical-social human-robot interaction, investigating how robots can interact safely and meaningfully with people, working on collaborative robots, humanoid robots, and optimal control, with a recent interest in cybersecurity and privacy in robotic systems. Yue is one of the co-chairs of the IEEE-RAS Technical Committee on Model-based Optimization for Robotics, an Associate Vice-President of the IEEE-RAS Members Activities Board (MAB), and an advisor for the organization Women in AI & Robotics."
+      photo: "/img/yue.jpg"
+      link:
+        href: "https://hu-yue.github.io/"
+        text: "www"
+      presentation:
+        title: "Designing Peer-Learner Robots for Language Learning in Refugee Resettlement Contexts"
+        time: "10:25 - 10:40"
+        description: "Language acquisition is a critical factor in the successful integration of refugees and asylum seekers, yet existing educational supports are often limited in accessibility and personalization. This talk presents early-stage research on the design of peer-learner social robots for supporting language learning among refugee and immigrant families. As part of a broader effort to develop inclusive and responsive human-robot interaction (HRI), we explore how the social role of a robot might shape engagement and interaction in robot-assisted language learning (RALL). Early evaluations and engagement with frontline service providers highlight key design considerations around role framing, responsiveness, and social presence. Building on this foundation, the work is progressing toward community-partnered development and deployment in real-world newcomer support settings. The talk reflects on methodological challenges and future directions for inclusive, context-aware human-robot interaction in migration and resettlement domains."
 
     - name: "Coffee break"
-      time: "11:00 - 11:30"
-
-    - name: "Silvia Rossi"
-      bio: "Università degli Studi di Napoli Federico II, Italy"
-      photo: "/img/silvia-rossi.jpg"
-      presentation:
-        title: "Transparency in Human-Robot Interaction - Open Challenges in Modeling and Evaluation of the Robot's Behavior"
-        time: "11:30 - 12:00"
-
-    - name: "Lars Kunze"
-      bio: "University of Oxford, UK"
-      photo: "/img/lars.jpg"
-      presentation:
-        title: "Making Robots Explainable and Trustworthy"
-        time: "12:00 - 12:30"
-
-    - name: "Lunch"
-      time: "12:30 - 14:00"
-
-    - name: "Tathagata Chakraborti"
-      bio: "IBM Research AI, USA"
-      photo: "/img/tathagata.jpg"
-      presentation:
-        title: "Planning with Mental Models - Explanations versus Explainable Behavior"
-        time: "14:00 - 14:30"
-
-    - name: "Bradley Hayes"
-      bio: "University of Colorado, Boulder, USA"
-      photo: "/img/bradley.jpg"
-      presentation:
-        title: "How to Generate and Utilize Justifications to Make Robot Explanations Useful"
-        time: "14:30 - 15:00"
-
-    - name: "Karinne Ramirez Amaro"
-      bio: "Chalmers University of Technology, Sweden"
-      photo: "/img/karinne.jpg"
-      presentation:
-        title: "Explainable AI meets Robotics - Robots that Learn and Reason from Experiences"
-        time: "15:00 - 15:30"
-
-    - name: "Coffee break and poster session"
-      time: "15:30 - 16:00"
+      time: "10:40 - 11:00"
 
     - name: "Short presentations (Accepted papers)"
-      time: "16:00 - 17:00"
+      time: "11:00 - 11:40"
 
-    - name: "Panel discussion"
-      time: "17:00 - 18:00"
+    - name: "Panel/Group discussion"
+      time: "11:40 - 12:15"
 
+    - name: "Closing remarks"
+      time: "12:15 - 12:30"
 
     #- name: "Session 1: Responsible robotics and societal impact"
     #  separator: ""
