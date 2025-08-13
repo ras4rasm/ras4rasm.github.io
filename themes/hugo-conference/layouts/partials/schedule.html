@@ -36,7 +36,11 @@
             <td class="schedule-time">{{ .time }}</td>
             <td class="schedule-slot">{{ .name }}</td>
             <td class="schedule-description">
+              {{ if ne .description nil }} {{ .description }} {{ end }}
               {{ if ne .video nil }}<a href="{{ .video }}" target="_blank">(video)</a>{{ end }}
+              {{ range $paper := .papers }}
+                {{ $paper.authors }}, <b>"{{ $paper.title }}"</b><br><br>
+              {{ end }}
             </td>
           </tr>
         {{ end }}

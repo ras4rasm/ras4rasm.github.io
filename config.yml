@@ -25,9 +25,9 @@ params:
     - about
     #- location
     #- frontiers
-    - cfp
+    #- cfp
     - speakers
-    #- papers
+    - papers
     - schedule
     - organizers
     #- sponsors
@@ -176,6 +176,17 @@ params:
 
     - name: "Short presentations (Accepted papers)"
       time: "11:00 - 11:40"
+      papers:
+        - title: "Can Robots Support Recovery from Mental Health Issues in At-Risk Immigrant Populations in the Netherlands?"
+          authors: "Thosha Moodley and Mirjam de Haas"
+        - title: "Baby Seal Robot, PARO, for 'Mental Health and Psychosocial Support (MHPSS) in Emergency and beyond' for Victims of Natural Disasters in Japan and for Ukrainian Refugees in Poland"
+          authors: "Takanori Shibata"
+        - title: "Crossing Borders Together: Co-Designing Robots with Refugees and Asylum Seekers"
+          authors: "Shaul Ashkenazi, Rawan Srour-Zreik, Gabriel Skantze, Jane Stuart-Smith and Mary Ellen Foster"
+        - title: "Towards Dignity-Preserving HRI: Addressing Surveillance Anxiety, Identity Erasure, and Dehumanization in Robotic Immigration Kiosks"
+          authors: "Atmadeep Ghoshal and Martim Brandao"
+        - title: "Compassionate Robots, Hostile Borders: The Paradox of Empathetic Technology in Asylum Adjudication"
+          authors: "Arshia Dutta and Martim Brandao"
 
     - name: "Panel/Group discussion"
       time: "11:40 - 12:15"
